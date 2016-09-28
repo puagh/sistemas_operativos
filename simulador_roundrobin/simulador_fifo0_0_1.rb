@@ -5,7 +5,7 @@ def media_path(file)
 end
 
 class GameWindow < Gosu::Window
-   BACKGROUND = media_path('fondo2.png')
+   BACKGROUND = media_path('fondo_r_r.png')
    def initialize(width=800, height=600, fullscreen=false)
     super
     self.caption = 'Simulador FIFO 0.0.1'
